@@ -15,14 +15,7 @@ import UIKit
 var oldStatusBarHeight:CGFloat {
     get {
         if #available(iOS 13.0, *) {
-            
-            let height = CGFloat((UIApplication.shared.windows.first?.windowScene?.statusBarManager?.statusBarFrame.size.height) ?? 0)
-            if height == 0 {
-                return CGFloat(UIApplication.shared.statusBarFrame.height)
-            } else {
-                return height
-            }
-            
+            return CGFloat((UIApplication.shared.windows.first?.windowScene?.statusBarManager?.statusBarFrame.size.height) ?? 0)
         } else {
             return CGFloat(UIApplication.shared.statusBarFrame.height)
         }

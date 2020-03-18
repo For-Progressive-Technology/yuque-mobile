@@ -8,7 +8,6 @@
 
 import Foundation
 
-extension UITableView: SPCompatible{}
 extension SP where Base: UITableView {
     
     /// 初始化TableView配置
