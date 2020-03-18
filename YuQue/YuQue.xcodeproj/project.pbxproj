@@ -1,0 +1,909 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C8B58F924210E940019A4D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8B58F824210E940019A4D9 /* AppDelegate.swift */; };
+		2C8B58FB24210E940019A4D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8B58FA24210E940019A4D9 /* SceneDelegate.swift */; };
+		2C8B58FD24210E940019A4D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8B58FC24210E940019A4D9 /* ViewController.swift */; };
+		2C8B590024210E940019A4D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8B58FE24210E940019A4D9 /* Main.storyboard */; };
+		2C8B590224210E960019A4D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C8B590124210E960019A4D9 /* Assets.xcassets */; };
+		2C8B590524210E960019A4D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8B590324210E960019A4D9 /* LaunchScreen.storyboard */; };
+		2C8B591024210E960019A4D9 /* YuQueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8B590F24210E960019A4D9 /* YuQueTests.swift */; };
+		2C8B591B24210E970019A4D9 /* YuQueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8B591A24210E970019A4D9 /* YuQueUITests.swift */; };
+		2C8B593E24210EF50019A4D9 /* UITableView+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8B592B24210EF40019A4D9 /* UITableView+Category.swift */; };
+		2C8B593F24210EF50019A4D9 /* Toast+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8B592C24210EF40019A4D9 /* Toast+Category.swift */; };
+		2C8B594024210EF50019A4D9 /* SPBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8B592D24210EF40019A4D9 /* SPBase.swift */; };
+		2C8B594124210EF50019A4D9 /* CALayer+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8B592E24210EF40019A4D9 /* CALayer+Category.swift */; };
+		2C8B594224210EF50019A4D9 /* Color+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8B592F24210EF40019A4D9 /* Color+Category.swift */; };
+		2C8B594324210EF50019A4D9 /* FPSLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8B593224210EF40019A4D9 /* FPSLabel.swift */; };
+		2C8B594424210EF50019A4D9 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8B593424210EF40019A4D9 /* Reusable.swift */; };
+		2C8B594524210EF50019A4D9 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8B593624210EF40019A4D9 /* NavigationController.swift */; };
+		2C8B594624210EF50019A4D9 /* ConfigScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8B593824210EF40019A4D9 /* ConfigScreen.swift */; };
+		2C8B594724210EF50019A4D9 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8B593924210EF40019A4D9 /* Tools.swift */; };
+		2C8B594824210EF50019A4D9 /* Asyncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8B593A24210EF40019A4D9 /* Asyncs.swift */; };
+		2C8B594924210EF50019A4D9 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8B593C24210EF40019A4D9 /* TabbarViewController.swift */; };
+		2C8B595D242111040019A4D9 /* TeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8B595C242111040019A4D9 /* TeamViewController.swift */; };
+		2C8B595F2421110F0019A4D9 /* DocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8B595E2421110F0019A4D9 /* DocumentViewController.swift */; };
+		2C8B5961242111180019A4D9 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8B5960242111180019A4D9 /* MeViewController.swift */; };
+		2F76C2EAA5F1CEA0C9E19A5F /* Pods_YuQue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7AF0D4DA01CAD5E32E26644 /* Pods_YuQue.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C8B590C24210E960019A4D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C8B58ED24210E940019A4D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C8B58F424210E940019A4D9;
+			remoteInfo = YuQue;
+		};
+		2C8B591724210E970019A4D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C8B58ED24210E940019A4D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C8B58F424210E940019A4D9;
+			remoteInfo = YuQue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10975E5D6447D5F41AA52E63 /* Pods-YuQue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YuQue.release.xcconfig"; path = "Target Support Files/Pods-YuQue/Pods-YuQue.release.xcconfig"; sourceTree = "<group>"; };
+		14C33ED70D37BE59FE1F2324 /* Pods-YuQue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YuQue.debug.xcconfig"; path = "Target Support Files/Pods-YuQue/Pods-YuQue.debug.xcconfig"; sourceTree = "<group>"; };
+		2C8B58F524210E940019A4D9 /* YuQue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YuQue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C8B58F824210E940019A4D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C8B58FA24210E940019A4D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2C8B58FC24210E940019A4D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C8B58FF24210E940019A4D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C8B590124210E960019A4D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C8B590424210E960019A4D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C8B590624210E960019A4D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C8B590B24210E960019A4D9 /* YuQueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YuQueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C8B590F24210E960019A4D9 /* YuQueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YuQueTests.swift; sourceTree = "<group>"; };
+		2C8B591124210E960019A4D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C8B591624210E970019A4D9 /* YuQueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YuQueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C8B591A24210E970019A4D9 /* YuQueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YuQueUITests.swift; sourceTree = "<group>"; };
+		2C8B591C24210E970019A4D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C8B592B24210EF40019A4D9 /* UITableView+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Category.swift"; sourceTree = "<group>"; };
+		2C8B592C24210EF40019A4D9 /* Toast+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Toast+Category.swift"; sourceTree = "<group>"; };
+		2C8B592D24210EF40019A4D9 /* SPBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPBase.swift; sourceTree = "<group>"; };
+		2C8B592E24210EF40019A4D9 /* CALayer+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+Category.swift"; sourceTree = "<group>"; };
+		2C8B592F24210EF40019A4D9 /* Color+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Category.swift"; sourceTree = "<group>"; };
+		2C8B593224210EF40019A4D9 /* FPSLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FPSLabel.swift; sourceTree = "<group>"; };
+		2C8B593424210EF40019A4D9 /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		2C8B593624210EF40019A4D9 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		2C8B593824210EF40019A4D9 /* ConfigScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigScreen.swift; sourceTree = "<group>"; };
+		2C8B593924210EF40019A4D9 /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		2C8B593A24210EF40019A4D9 /* Asyncs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Asyncs.swift; sourceTree = "<group>"; };
+		2C8B593C24210EF40019A4D9 /* TabbarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
+		2C8B594A24210FCF0019A4D9 /* YuQue-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YuQue-Bridging-Header.h"; sourceTree = "<group>"; };
+		2C8B595C242111040019A4D9 /* TeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamViewController.swift; sourceTree = "<group>"; };
+		2C8B595E2421110F0019A4D9 /* DocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentViewController.swift; sourceTree = "<group>"; };
+		2C8B5960242111180019A4D9 /* MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		F7AF0D4DA01CAD5E32E26644 /* Pods_YuQue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YuQue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C8B58F224210E940019A4D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F76C2EAA5F1CEA0C9E19A5F /* Pods_YuQue.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C8B590824210E960019A4D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C8B591324210E970019A4D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C8B58EC24210E940019A4D9 = {
+			isa = PBXGroup;
+			children = (
+				2C8B58F724210E940019A4D9 /* YuQue */,
+				2C8B590E24210E960019A4D9 /* YuQueTests */,
+				2C8B591924210E970019A4D9 /* YuQueUITests */,
+				2C8B58F624210E940019A4D9 /* Products */,
+				54E704C38E8DCE9763998ED1 /* Pods */,
+				7526A94B45375FDAF481CCBB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2C8B58F624210E940019A4D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C8B58F524210E940019A4D9 /* YuQue.app */,
+				2C8B590B24210E960019A4D9 /* YuQueTests.xctest */,
+				2C8B591624210E970019A4D9 /* YuQueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C8B58F724210E940019A4D9 /* YuQue */ = {
+			isa = PBXGroup;
+			children = (
+				2C8B58F824210E940019A4D9 /* AppDelegate.swift */,
+				2C8B58FA24210E940019A4D9 /* SceneDelegate.swift */,
+				2C8B594A24210FCF0019A4D9 /* YuQue-Bridging-Header.h */,
+				2C8B592824210EF40019A4D9 /* Class */,
+				2C8B592924210EF40019A4D9 /* Expand */,
+				2C8B593D24210EF40019A4D9 /* Resource */,
+			);
+			path = YuQue;
+			sourceTree = "<group>";
+		};
+		2C8B590E24210E960019A4D9 /* YuQueTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C8B590F24210E960019A4D9 /* YuQueTests.swift */,
+				2C8B591124210E960019A4D9 /* Info.plist */,
+			);
+			path = YuQueTests;
+			sourceTree = "<group>";
+		};
+		2C8B591924210E970019A4D9 /* YuQueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C8B591A24210E970019A4D9 /* YuQueUITests.swift */,
+				2C8B591C24210E970019A4D9 /* Info.plist */,
+			);
+			path = YuQueUITests;
+			sourceTree = "<group>";
+		};
+		2C8B592824210EF40019A4D9 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				2C8B5956242110E30019A4D9 /* Team */,
+				2C8B594E242110E30019A4D9 /* Document */,
+				2C8B5952242110E30019A4D9 /* Me */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		2C8B592924210EF40019A4D9 /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				2C8B592A24210EF40019A4D9 /* Extension */,
+				2C8B593024210EF40019A4D9 /* Third */,
+				2C8B593324210EF40019A4D9 /* Protocol */,
+				2C8B593524210EF40019A4D9 /* Navigationbar */,
+				2C8B593724210EF40019A4D9 /* Tool */,
+				2C8B593B24210EF40019A4D9 /* TabbarController */,
+			);
+			path = Expand;
+			sourceTree = "<group>";
+		};
+		2C8B592A24210EF40019A4D9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2C8B592B24210EF40019A4D9 /* UITableView+Category.swift */,
+				2C8B592C24210EF40019A4D9 /* Toast+Category.swift */,
+				2C8B592D24210EF40019A4D9 /* SPBase.swift */,
+				2C8B592E24210EF40019A4D9 /* CALayer+Category.swift */,
+				2C8B592F24210EF40019A4D9 /* Color+Category.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		2C8B593024210EF40019A4D9 /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				2C8B593124210EF40019A4D9 /* FPSLabel */,
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		2C8B593124210EF40019A4D9 /* FPSLabel */ = {
+			isa = PBXGroup;
+			children = (
+				2C8B593224210EF40019A4D9 /* FPSLabel.swift */,
+			);
+			path = FPSLabel;
+			sourceTree = "<group>";
+		};
+		2C8B593324210EF40019A4D9 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				2C8B593424210EF40019A4D9 /* Reusable.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		2C8B593524210EF40019A4D9 /* Navigationbar */ = {
+			isa = PBXGroup;
+			children = (
+				2C8B593624210EF40019A4D9 /* NavigationController.swift */,
+			);
+			path = Navigationbar;
+			sourceTree = "<group>";
+		};
+		2C8B593724210EF40019A4D9 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				2C8B593824210EF40019A4D9 /* ConfigScreen.swift */,
+				2C8B593924210EF40019A4D9 /* Tools.swift */,
+				2C8B593A24210EF40019A4D9 /* Asyncs.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		2C8B593B24210EF40019A4D9 /* TabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				2C8B593C24210EF40019A4D9 /* TabbarViewController.swift */,
+			);
+			path = TabbarController;
+			sourceTree = "<group>";
+		};
+		2C8B593D24210EF40019A4D9 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				2C8B58FC24210E940019A4D9 /* ViewController.swift */,
+				2C8B58FE24210E940019A4D9 /* Main.storyboard */,
+				2C8B590124210E960019A4D9 /* Assets.xcassets */,
+				2C8B590324210E960019A4D9 /* LaunchScreen.storyboard */,
+				2C8B590624210E960019A4D9 /* Info.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		2C8B594E242110E30019A4D9 /* Document */ = {
+			isa = PBXGroup;
+			children = (
+				2C8B594F242110E30019A4D9 /* Controller */,
+				2C8B5950242110E30019A4D9 /* Model */,
+				2C8B5951242110E30019A4D9 /* View */,
+			);
+			path = Document;
+			sourceTree = "<group>";
+		};
+		2C8B594F242110E30019A4D9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2C8B595E2421110F0019A4D9 /* DocumentViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2C8B5950242110E30019A4D9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2C8B5951242110E30019A4D9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2C8B5952242110E30019A4D9 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				2C8B5953242110E30019A4D9 /* Controller */,
+				2C8B5954242110E30019A4D9 /* Model */,
+				2C8B5955242110E30019A4D9 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		2C8B5953242110E30019A4D9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2C8B5960242111180019A4D9 /* MeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2C8B5954242110E30019A4D9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2C8B5955242110E30019A4D9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2C8B5956242110E30019A4D9 /* Team */ = {
+			isa = PBXGroup;
+			children = (
+				2C8B5957242110E30019A4D9 /* Controller */,
+				2C8B5958242110E30019A4D9 /* Model */,
+				2C8B5959242110E30019A4D9 /* View */,
+			);
+			path = Team;
+			sourceTree = "<group>";
+		};
+		2C8B5957242110E30019A4D9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2C8B595C242111040019A4D9 /* TeamViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2C8B5958242110E30019A4D9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2C8B5959242110E30019A4D9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		54E704C38E8DCE9763998ED1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14C33ED70D37BE59FE1F2324 /* Pods-YuQue.debug.xcconfig */,
+				10975E5D6447D5F41AA52E63 /* Pods-YuQue.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7526A94B45375FDAF481CCBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7AF0D4DA01CAD5E32E26644 /* Pods_YuQue.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C8B58F424210E940019A4D9 /* YuQue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C8B591F24210E970019A4D9 /* Build configuration list for PBXNativeTarget "YuQue" */;
+			buildPhases = (
+				13CF39B138008408C2D518BC /* [CP] Check Pods Manifest.lock */,
+				2C8B58F124210E940019A4D9 /* Sources */,
+				2C8B58F224210E940019A4D9 /* Frameworks */,
+				2C8B58F324210E940019A4D9 /* Resources */,
+				A2BBC0971D20ABA719BDB1F3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YuQue;
+			productName = YuQue;
+			productReference = 2C8B58F524210E940019A4D9 /* YuQue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C8B590A24210E960019A4D9 /* YuQueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C8B592224210E970019A4D9 /* Build configuration list for PBXNativeTarget "YuQueTests" */;
+			buildPhases = (
+				2C8B590724210E960019A4D9 /* Sources */,
+				2C8B590824210E960019A4D9 /* Frameworks */,
+				2C8B590924210E960019A4D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C8B590D24210E960019A4D9 /* PBXTargetDependency */,
+			);
+			name = YuQueTests;
+			productName = YuQueTests;
+			productReference = 2C8B590B24210E960019A4D9 /* YuQueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C8B591524210E970019A4D9 /* YuQueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C8B592524210E970019A4D9 /* Build configuration list for PBXNativeTarget "YuQueUITests" */;
+			buildPhases = (
+				2C8B591224210E970019A4D9 /* Sources */,
+				2C8B591324210E970019A4D9 /* Frameworks */,
+				2C8B591424210E970019A4D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C8B591824210E970019A4D9 /* PBXTargetDependency */,
+			);
+			name = YuQueUITests;
+			productName = YuQueUITests;
+			productReference = 2C8B591624210E970019A4D9 /* YuQueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C8B58ED24210E940019A4D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = CTO;
+				TargetAttributes = {
+					2C8B58F424210E940019A4D9 = {
+						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
+					};
+					2C8B590A24210E960019A4D9 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 2C8B58F424210E940019A4D9;
+					};
+					2C8B591524210E970019A4D9 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 2C8B58F424210E940019A4D9;
+					};
+				};
+			};
+			buildConfigurationList = 2C8B58F024210E940019A4D9 /* Build configuration list for PBXProject "YuQue" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C8B58EC24210E940019A4D9;
+			productRefGroup = 2C8B58F624210E940019A4D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C8B58F424210E940019A4D9 /* YuQue */,
+				2C8B590A24210E960019A4D9 /* YuQueTests */,
+				2C8B591524210E970019A4D9 /* YuQueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C8B58F324210E940019A4D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C8B590524210E960019A4D9 /* LaunchScreen.storyboard in Resources */,
+				2C8B590224210E960019A4D9 /* Assets.xcassets in Resources */,
+				2C8B590024210E940019A4D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C8B590924210E960019A4D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C8B591424210E970019A4D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13CF39B138008408C2D518BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YuQue-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2BBC0971D20ABA719BDB1F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YuQue/Pods-YuQue-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YuQue/Pods-YuQue-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YuQue/Pods-YuQue-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C8B58F124210E940019A4D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C8B5961242111180019A4D9 /* MeViewController.swift in Sources */,
+				2C8B595F2421110F0019A4D9 /* DocumentViewController.swift in Sources */,
+				2C8B594724210EF50019A4D9 /* Tools.swift in Sources */,
+				2C8B594524210EF50019A4D9 /* NavigationController.swift in Sources */,
+				2C8B58FD24210E940019A4D9 /* ViewController.swift in Sources */,
+				2C8B594024210EF50019A4D9 /* SPBase.swift in Sources */,
+				2C8B58F924210E940019A4D9 /* AppDelegate.swift in Sources */,
+				2C8B58FB24210E940019A4D9 /* SceneDelegate.swift in Sources */,
+				2C8B594824210EF50019A4D9 /* Asyncs.swift in Sources */,
+				2C8B594424210EF50019A4D9 /* Reusable.swift in Sources */,
+				2C8B594924210EF50019A4D9 /* TabbarViewController.swift in Sources */,
+				2C8B595D242111040019A4D9 /* TeamViewController.swift in Sources */,
+				2C8B594124210EF50019A4D9 /* CALayer+Category.swift in Sources */,
+				2C8B594624210EF50019A4D9 /* ConfigScreen.swift in Sources */,
+				2C8B593F24210EF50019A4D9 /* Toast+Category.swift in Sources */,
+				2C8B593E24210EF50019A4D9 /* UITableView+Category.swift in Sources */,
+				2C8B594224210EF50019A4D9 /* Color+Category.swift in Sources */,
+				2C8B594324210EF50019A4D9 /* FPSLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C8B590724210E960019A4D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C8B591024210E960019A4D9 /* YuQueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C8B591224210E970019A4D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C8B591B24210E970019A4D9 /* YuQueUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C8B590D24210E960019A4D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C8B58F424210E940019A4D9 /* YuQue */;
+			targetProxy = 2C8B590C24210E960019A4D9 /* PBXContainerItemProxy */;
+		};
+		2C8B591824210E970019A4D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C8B58F424210E940019A4D9 /* YuQue */;
+			targetProxy = 2C8B591724210E970019A4D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C8B58FE24210E940019A4D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C8B58FF24210E940019A4D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C8B590324210E960019A4D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C8B590424210E960019A4D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C8B591D24210E970019A4D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C8B591E24210E970019A4D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C8B592024210E970019A4D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14C33ED70D37BE59FE1F2324 /* Pods-YuQue.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32KHXAJJKL;
+				INFOPLIST_FILE = YuQue/Resource/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cto.YuQue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YuQue/YuQue-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C8B592124210E970019A4D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10975E5D6447D5F41AA52E63 /* Pods-YuQue.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32KHXAJJKL;
+				INFOPLIST_FILE = YuQue/Resource/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cto.YuQue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YuQue/YuQue-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C8B592324210E970019A4D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32KHXAJJKL;
+				INFOPLIST_FILE = YuQueTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cto.YuQueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YuQue.app/YuQue";
+			};
+			name = Debug;
+		};
+		2C8B592424210E970019A4D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32KHXAJJKL;
+				INFOPLIST_FILE = YuQueTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cto.YuQueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YuQue.app/YuQue";
+			};
+			name = Release;
+		};
+		2C8B592624210E970019A4D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32KHXAJJKL;
+				INFOPLIST_FILE = YuQueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cto.YuQueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YuQue;
+			};
+			name = Debug;
+		};
+		2C8B592724210E970019A4D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32KHXAJJKL;
+				INFOPLIST_FILE = YuQueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cto.YuQueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YuQue;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C8B58F024210E940019A4D9 /* Build configuration list for PBXProject "YuQue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C8B591D24210E970019A4D9 /* Debug */,
+				2C8B591E24210E970019A4D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C8B591F24210E970019A4D9 /* Build configuration list for PBXNativeTarget "YuQue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C8B592024210E970019A4D9 /* Debug */,
+				2C8B592124210E970019A4D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C8B592224210E970019A4D9 /* Build configuration list for PBXNativeTarget "YuQueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C8B592324210E970019A4D9 /* Debug */,
+				2C8B592424210E970019A4D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C8B592524210E970019A4D9 /* Build configuration list for PBXNativeTarget "YuQueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C8B592624210E970019A4D9 /* Debug */,
+				2C8B592724210E970019A4D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C8B58ED24210E940019A4D9 /* Project object */;
+}

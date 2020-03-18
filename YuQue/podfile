@@ -1,0 +1,16 @@
+platform:ios,'8.0'
+
+inhibit_all_warnings!
+
+target 'YuQue' do
+  use_frameworks!
+  
+  pod 'SnapKit'
+  pod 'Alamofire'
+  pod 'SwiftyJSON'
+  pod "Kingfisher"
+  pod "R.swift"
+  pod 'IQKeyboardManager'
+  pod 'Toast-Swift', '~> 5.0.1'
+
+end
