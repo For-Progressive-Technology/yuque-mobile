@@ -58,3 +58,15 @@ let widthRate = (screenWidth / 375)   //812 是ui设计用的屏幕高度
  }
 
 
+// MARK:- 自定义打印方法
+func VVLog<T>(_ message : T, file : String = #file, funcName : String = #function, lineNum : Int = #line) {
+
+    #if DEBUG
+
+        let fileName = (file as NSString).lastPathComponent
+
+        print("\(fileName):(\(lineNum))- \(message)")
+
+    #endif
+}
+
