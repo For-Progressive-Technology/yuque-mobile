@@ -1,5 +1,41 @@
 PODS:
   - Alamofire (4.9.1)
+  - BSBacktraceLogger (0.0.1)
+  - CocoaLumberjack (3.6.1):
+    - CocoaLumberjack/Core (= 3.6.1)
+  - CocoaLumberjack/Core (3.6.1)
+  - DoraemonKit/Core (3.0.0):
+    - BSBacktraceLogger
+    - fishhook
+  - DoraemonKit/WithDatabase (3.0.0):
+    - BSBacktraceLogger
+    - DoraemonKit/Core
+    - fishhook
+    - YYDebugDatabase
+  - DoraemonKit/WithGPS (3.0.0):
+    - BSBacktraceLogger
+    - DoraemonKit/Core
+    - fishhook
+  - DoraemonKit/WithLoad (3.0.0):
+    - BSBacktraceLogger
+    - DoraemonKit/Core
+    - fishhook
+  - DoraemonKit/WithLogger (3.0.0):
+    - BSBacktraceLogger
+    - CocoaLumberjack
+    - DoraemonKit/Core
+    - fishhook
+  - DoraemonKit/WithMLeaksFinder (3.0.0):
+    - BSBacktraceLogger
+    - DoraemonKit/Core
+    - fishhook
+  - fishhook (0.2)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - GCDWebServer (3.5.4):
+    - GCDWebServer/Core (= 3.5.4)
+  - GCDWebServer/Core (3.5.4)
   - IQKeyboardManager (6.5.5)
   - Kingfisher (4.10.1)
   - R.swift (5.1.0):
@@ -8,9 +44,18 @@ PODS:
   - SnapKit (4.2.0)
   - SwiftyJSON (5.0.0)
   - Toast-Swift (5.0.1)
+  - YYDebugDatabase (2.0.8):
+    - FMDB
+    - GCDWebServer
 
 DEPENDENCIES:
   - Alamofire
+  - DoraemonKit/Core (from `https://gitee.com/yixiangboy/DoraemonKit.git`)
+  - DoraemonKit/WithDatabase (from `https://gitee.com/yixiangboy/DoraemonKit.git`)
+  - DoraemonKit/WithGPS (from `https://gitee.com/yixiangboy/DoraemonKit.git`)
+  - DoraemonKit/WithLoad (from `https://gitee.com/yixiangboy/DoraemonKit.git`)
+  - DoraemonKit/WithLogger (from `https://gitee.com/yixiangboy/DoraemonKit.git`)
+  - DoraemonKit/WithMLeaksFinder (from `https://gitee.com/yixiangboy/DoraemonKit.git`)
   - IQKeyboardManager
   - Kingfisher
   - R.swift
@@ -19,8 +64,13 @@ DEPENDENCIES:
   - Toast-Swift (~> 5.0.1)
 
 SPEC REPOS:
-  trunk:
+  https://github.com/cocoapods/specs.git:
     - Alamofire
+    - BSBacktraceLogger
+    - CocoaLumberjack
+    - fishhook
+    - FMDB
+    - GCDWebServer
     - IQKeyboardManager
     - Kingfisher
     - R.swift
@@ -28,9 +78,25 @@ SPEC REPOS:
     - SnapKit
     - SwiftyJSON
     - Toast-Swift
+    - YYDebugDatabase
+
+EXTERNAL SOURCES:
+  DoraemonKit:
+    :git: https://gitee.com/yixiangboy/DoraemonKit.git
+
+CHECKOUT OPTIONS:
+  DoraemonKit:
+    :commit: ef3acb7db90f5decf8a93834c4cc02584b69d175
+    :git: https://gitee.com/yixiangboy/DoraemonKit.git
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  BSBacktraceLogger: 06b983ee93a9f87d957960e9c73d660d5966b447
+  CocoaLumberjack: b17ae15142558d08bbacf69775fa10c4abbebcc9
+  DoraemonKit: d214a1a1542c19bc857fcf52ed82a785d073a381
+  fishhook: ea19933abfe8f2f52c55fd8b6e2718467d3ebc89
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
   IQKeyboardManager: 3a8b9e603f8b0eeaf5f096a1f2b2cfcf121992ef
   Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
   R.swift: 8cbc4fc69b740305b6a17c8a8ed968eb788962d9
@@ -38,7 +104,8 @@ SPEC CHECKSUMS:
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
   Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+  YYDebugDatabase: 037486297a7dd40bc50e2c6df5de7b4ad24c9c17
 
-PODFILE CHECKSUM: 1063e7c4886bddc309fc591d27327ab437434714
+PODFILE CHECKSUM: 802cc76c21f0b81404cdcb686b2efbf0ca2fa76d
 
-COCOAPODS: 1.9.0.beta.3
+COCOAPODS: 1.7.5

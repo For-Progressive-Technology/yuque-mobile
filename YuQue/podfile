@@ -1,4 +1,4 @@
-platform:ios,'8.0'
+platform:ios,'11.0'
 
 inhibit_all_warnings!
 
@@ -12,5 +12,12 @@ target 'YuQue' do
   pod "R.swift"
   pod 'IQKeyboardManager'
   pod 'Toast-Swift', '~> 5.0.1'
-
+  
+  #  Debug 中使用
+  pod 'DoraemonKit/Core', :git => "https://gitee.com/yixiangboy/DoraemonKit.git", :configurations => ['Debug']
+  pod 'DoraemonKit/WithLogger', :git => "https://gitee.com/yixiangboy/DoraemonKit.git", :configurations => ['Debug']
+  pod 'DoraemonKit/WithGPS', :git => "https://gitee.com/yixiangboy/DoraemonKit.git", :configurations => ['Debug']
+  pod 'DoraemonKit/WithLoad', :git => "https://gitee.com/yixiangboy/DoraemonKit.git", :configurations => ['Debug']
+  pod 'DoraemonKit/WithDatabase', :git => "https://gitee.com/yixiangboy/DoraemonKit.git", :configurations => ['Debug']
+  pod 'DoraemonKit/WithMLeaksFinder', :git => "https://gitee.com/yixiangboy/DoraemonKit.git", :configurations => ['Debug']
 end

@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2C8B58F924210E940019A4D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8B58F824210E940019A4D9 /* AppDelegate.swift */; };
-		2C8B58FB24210E940019A4D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8B58FA24210E940019A4D9 /* SceneDelegate.swift */; };
-		2C8B58FD24210E940019A4D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8B58FC24210E940019A4D9 /* ViewController.swift */; };
-		2C8B590024210E940019A4D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8B58FE24210E940019A4D9 /* Main.storyboard */; };
 		2C8B590224210E960019A4D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C8B590124210E960019A4D9 /* Assets.xcassets */; };
 		2C8B590524210E960019A4D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8B590324210E960019A4D9 /* LaunchScreen.storyboard */; };
 		2C8B591024210E960019A4D9 /* YuQueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8B590F24210E960019A4D9 /* YuQueTests.swift */; };
@@ -55,9 +52,6 @@
 		14C33ED70D37BE59FE1F2324 /* Pods-YuQue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YuQue.debug.xcconfig"; path = "Target Support Files/Pods-YuQue/Pods-YuQue.debug.xcconfig"; sourceTree = "<group>"; };
 		2C8B58F524210E940019A4D9 /* YuQue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YuQue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C8B58F824210E940019A4D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2C8B58FA24210E940019A4D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2C8B58FC24210E940019A4D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2C8B58FF24210E940019A4D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C8B590124210E960019A4D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C8B590424210E960019A4D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C8B590624210E960019A4D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -138,7 +132,6 @@
 			isa = PBXGroup;
 			children = (
 				2C8B58F824210E940019A4D9 /* AppDelegate.swift */,
-				2C8B58FA24210E940019A4D9 /* SceneDelegate.swift */,
 				2C8B594A24210FCF0019A4D9 /* YuQue-Bridging-Header.h */,
 				2C8B592824210EF40019A4D9 /* Class */,
 				2C8B592924210EF40019A4D9 /* Expand */,
@@ -168,6 +161,7 @@
 		2C8B592824210EF40019A4D9 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				8002077F242247C800DFD0EB /* Entry */,
 				2C8B5956242110E30019A4D9 /* Team */,
 				2C8B594E242110E30019A4D9 /* Document */,
 				2C8B5952242110E30019A4D9 /* Me */,
@@ -181,9 +175,7 @@
 				2C8B592A24210EF40019A4D9 /* Extension */,
 				2C8B593024210EF40019A4D9 /* Third */,
 				2C8B593324210EF40019A4D9 /* Protocol */,
-				2C8B593524210EF40019A4D9 /* Navigationbar */,
 				2C8B593724210EF40019A4D9 /* Tool */,
-				2C8B593B24210EF40019A4D9 /* TabbarController */,
 			);
 			path = Expand;
 			sourceTree = "<group>";
@@ -253,8 +245,6 @@
 		2C8B593D24210EF40019A4D9 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				2C8B58FC24210E940019A4D9 /* ViewController.swift */,
-				2C8B58FE24210E940019A4D9 /* Main.storyboard */,
 				2C8B590124210E960019A4D9 /* Assets.xcassets */,
 				2C8B590324210E960019A4D9 /* LaunchScreen.storyboard */,
 				2C8B590624210E960019A4D9 /* Info.plist */,
@@ -375,6 +365,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8002077F242247C800DFD0EB /* Entry */ = {
+			isa = PBXGroup;
+			children = (
+				2C8B593524210EF40019A4D9 /* Navigationbar */,
+				2C8B593B24210EF40019A4D9 /* TabbarController */,
+			);
+			path = Entry;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -484,7 +483,6 @@
 			files = (
 				2C8B590524210E960019A4D9 /* LaunchScreen.storyboard in Resources */,
 				2C8B590224210E960019A4D9 /* Assets.xcassets in Resources */,
-				2C8B590024210E940019A4D9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,10 +553,8 @@
 				2C8B595F2421110F0019A4D9 /* DocumentViewController.swift in Sources */,
 				2C8B594724210EF50019A4D9 /* Tools.swift in Sources */,
 				2C8B594524210EF50019A4D9 /* NavigationController.swift in Sources */,
-				2C8B58FD24210E940019A4D9 /* ViewController.swift in Sources */,
 				2C8B594024210EF50019A4D9 /* SPBase.swift in Sources */,
 				2C8B58F924210E940019A4D9 /* AppDelegate.swift in Sources */,
-				2C8B58FB24210E940019A4D9 /* SceneDelegate.swift in Sources */,
 				2C8B594824210EF50019A4D9 /* Asyncs.swift in Sources */,
 				2C8B594424210EF50019A4D9 /* Reusable.swift in Sources */,
 				2C8B594924210EF50019A4D9 /* TabbarViewController.swift in Sources */,
@@ -604,14 +600,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2C8B58FE24210E940019A4D9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2C8B58FF24210E940019A4D9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2C8B590324210E960019A4D9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -746,6 +734,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 32KHXAJJKL;
 				INFOPLIST_FILE = YuQue/Resource/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -755,7 +744,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "YuQue/YuQue-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -768,6 +757,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 32KHXAJJKL;
 				INFOPLIST_FILE = YuQue/Resource/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -776,7 +766,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "YuQue/YuQue-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
