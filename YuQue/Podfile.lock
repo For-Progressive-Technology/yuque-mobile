@@ -1,5 +1,11 @@
 PODS:
-  - Alamofire (4.9.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
   - BSBacktraceLogger (0.0.1)
   - CocoaLumberjack (3.6.1):
     - CocoaLumberjack/Core (= 3.6.1)
@@ -44,12 +50,13 @@ PODS:
   - SnapKit (4.2.0)
   - SwiftyJSON (5.0.0)
   - Toast-Swift (5.0.1)
+  - YTKNetwork (2.1.4):
+    - AFNetworking/NSURLSession (~> 3.0)
   - YYDebugDatabase (2.0.8):
     - FMDB
     - GCDWebServer
 
 DEPENDENCIES:
-  - Alamofire
   - DoraemonKit/Core (from `https://gitee.com/yixiangboy/DoraemonKit.git`)
   - DoraemonKit/WithDatabase (from `https://gitee.com/yixiangboy/DoraemonKit.git`)
   - DoraemonKit/WithGPS (from `https://gitee.com/yixiangboy/DoraemonKit.git`)
@@ -62,10 +69,11 @@ DEPENDENCIES:
   - SnapKit
   - SwiftyJSON
   - Toast-Swift (~> 5.0.1)
+  - YTKNetwork
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - Alamofire
+    - AFNetworking
     - BSBacktraceLogger
     - CocoaLumberjack
     - fishhook
@@ -78,6 +86,7 @@ SPEC REPOS:
     - SnapKit
     - SwiftyJSON
     - Toast-Swift
+    - YTKNetwork
     - YYDebugDatabase
 
 EXTERNAL SOURCES:
@@ -90,7 +99,7 @@ CHECKOUT OPTIONS:
     :git: https://gitee.com/yixiangboy/DoraemonKit.git
 
 SPEC CHECKSUMS:
-  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   BSBacktraceLogger: 06b983ee93a9f87d957960e9c73d660d5966b447
   CocoaLumberjack: b17ae15142558d08bbacf69775fa10c4abbebcc9
   DoraemonKit: d214a1a1542c19bc857fcf52ed82a785d073a381
@@ -104,8 +113,9 @@ SPEC CHECKSUMS:
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
   Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+  YTKNetwork: 19be749c30f0512ada07180f4637b4b67bc8ddc2
   YYDebugDatabase: 037486297a7dd40bc50e2c6df5de7b4ad24c9c17
 
-PODFILE CHECKSUM: 802cc76c21f0b81404cdcb686b2efbf0ca2fa76d
+PODFILE CHECKSUM: 3b668cb11b1abc0ee086b66804397fa591abf6e5
 
 COCOAPODS: 1.7.5

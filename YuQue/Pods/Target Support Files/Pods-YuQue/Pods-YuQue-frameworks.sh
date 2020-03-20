@@ -161,7 +161,7 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/BSBacktraceLogger/BSBacktraceLogger.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/DoraemonKit/DoraemonKit.framework"
@@ -174,11 +174,12 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/YTKNetwork/YTKNetwork.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YYDebugDatabase/YYDebugDatabase.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/fishhook/fishhook.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/BSBacktraceLogger/BSBacktraceLogger.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework"
@@ -189,6 +190,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/YTKNetwork/YTKNetwork.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YYDebugDatabase/YYDebugDatabase.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/fishhook/fishhook.framework"
 fi

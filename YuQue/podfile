@@ -6,10 +6,11 @@ target 'YuQue' do
   use_frameworks!
   
   pod 'SnapKit'
-  pod 'Alamofire'
+#  pod 'Alamofire'
   pod 'SwiftyJSON'
   pod "Kingfisher"
   pod "R.swift"
+  pod 'YTKNetwork'
   pod 'IQKeyboardManager'
   pod 'Toast-Swift', '~> 5.0.1'
   
